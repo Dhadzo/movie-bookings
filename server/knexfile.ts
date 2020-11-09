@@ -8,7 +8,7 @@ module.exports = {
         host: process.env.POSTGRESS_DEV_HOST,
         port: process.env.POSTGRESS_DEV_PORT,
         user: process.env.POSTGRESS_DEV_USER,
-        // password: process.env.POSTGRESS_DEV_PASSWORD,
+        password: process.env.POSTGRESS_DEV_PASSWORD,
         database: process.env.POSTGRESS_DEV_DATABASE,
     },
     migrations: {
