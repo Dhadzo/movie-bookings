@@ -1,0 +1,52 @@
+.result-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+  
+  }
+  .search-movies{
+      margin-bottom: 0;
+      width: 50%;
+   }
+  .movies{
+     background-color: white;
+     min-height: 450px;
+     width: 60%;
+  }
+  .movie{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    box-shadow: 0 8px 24px rgba(149,157,165,.2);
+    padding: 10px;
+  }
+  .book-movie{
+      background-color:palevioletred;
+      border-radius: 5px;
+      cursor: pointer;
+      color: white;
+      height: 25px;
+      //font-size: 15px;
+      //padding: 10px;
+      margin-left: auto;
+      margin-top: 10px;
+  }
+  .movie-details{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 50%;
+  }
+  .error{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 250px;
+    height: 40px;
+    font-size: 40px;
+    color: salmon;
+  }

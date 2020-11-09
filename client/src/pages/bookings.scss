@@ -1,0 +1,40 @@
+.bookings-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 40px;
+
+}
+.search-bookings{
+    margin-bottom: 0;
+    width: 50%;
+ }
+ .bookings{
+  background-color: white;
+  min-height: 450px;
+  align-items: center;
+  width: 60%;
+ }
+.booking{
+  display: flex;
+  flex-direction: row;
+  background-color: transparent;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 24px rgba(149,157,165,.2);
+  cursor: pointer;
+}
+.booking-details{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    width: 90%;
+    height: 100px;
+}
+.no-bookings{
+   margin-left:170px;
+   margin-top: 50px;
+   color:salmon;
+   font-size: 40px;
+}
+
